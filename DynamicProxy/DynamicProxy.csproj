@@ -45,9 +45,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Attributes\CatchableAttribute.cs" />
     <Compile Include="Calculator.cs" />
-    <Compile Include="CalculatorInterceptor.cs" />
-    <Compile Include="Interceptor.cs" />
+    <Compile Include="Interceptors\ExceptionInterceptor.cs" />
+    <Compile Include="Interceptors\BaseInterceptor.cs" />
+    <Compile Include="Interceptors\LoggingInterceptor.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
